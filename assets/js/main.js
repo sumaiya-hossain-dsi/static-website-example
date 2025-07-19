@@ -138,7 +138,7 @@
 
 					// Scroll to the article
 					$('html, body').animate({
-						scrollTop: $article.offset().top - 100
+						scrollTop: $article.offset().top - 50
 					}, 300);
 
 					// Unlock.
@@ -180,7 +180,7 @@
 							
 							// Scroll to the article
 							$('html, body').animate({
-								scrollTop: $article.offset().top - 100
+								scrollTop: $article.offset().top - 50
 							}, 300);
 
 							// Unlock.
@@ -216,7 +216,7 @@
 							
 							// Scroll to the article
 							$('html, body').animate({
-								scrollTop: $article.offset().top - 100
+								scrollTop: $article.offset().top - 50
 							}, 300);
 
 							// Unlock.
