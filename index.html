@@ -6,19 +6,22 @@
 -->
 <html>
 	<head>
-		<title>Dimension</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<meta name="description" content="A fully responsive site template designed by HTML5 UP">
-		<meta property="og:site_name" content="Dimension">
-		<meta property="og:title" content="Dimension">
+		<title>Arium Immigration</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta name="color-scheme" content="light only">
+		<meta name="description" content="Helping you navigate Canadian immigration with confidence">
+		<meta property="og:site_name" content="Arium Immigration">
+		<meta property="og:title" content="Arium Immigration">
 		<meta property="og:type" content="website">
-		<meta property="og:description" content="A fully responsive site template designed by HTML5 UP">
-		<meta property="og:image" content="images/free-diamond-favicon.png">
+		<meta property="og:description" content="Helping you navigate Canadian immigration with confidence">
+		<meta property="og:image" content="images/arium-temp-favicon.png">
 		<meta property="og:image:type" content="image/jpeg">
 		<meta property="og:image:width" content="1280">
 		<meta property="og:image:height" content="800">
-		<link rel="icon" type="image/png" href="images/free-diamond-favicon.png">
+		<link rel="icon" type="image/png" href="images/arium-temp-favicon.png">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    	<link href="https://fonts.googleapis.com/css2?display=swap&amp;family=Inter:ital,wght@0,400;1,400" rel="stylesheet" type="text/css">
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
@@ -40,17 +43,31 @@
 
 						<div class="content">
 							<div class="inner">
+								<style>
+									p {margin: 0.5em;}
+								</style>
 								<h1>Arium Immigration</h1>
+								<!-- <p>&nbsp;</p> -->
 								<p>
-									Helping people navigate Canada’s immigration system with clarity and care.<br/>Guided by lived experience, grounded in legal understanding.<br/>Welcome to Arium Immigration.
+									Helping people navigate Canada’s immigration system with clarity and care.
 								</p>
+								<p>
+									Guided by lived experience, grounded in legal understanding.
+								</p>
+								<p>
+									Welcome to Arium Immigration.
+								</p>
+								<p style="line-height: 1;">&nbsp;</p>
+								 <ul class="actions vertical">
+									<li><a href="https://calendly.com/ariumimmigration-info/30min" target="_blank" class="button special">Book a consultation</a></li>
+								</ul>
 							</div>
 						</div>
 						<nav>
 							<ul>
-								<li><a href="#intro">Intro</a></li>
-								<li><a href="#work">Work</a></li>
 								<li><a href="#about">About</a></li>
+								<!-- <li><a href="#intro">Intro</a></li> -->
+								<li><a href="#services">Services</a></li>
 								<li><a href="#contact">Contact</a></li>
 								<!-- <li><a href="#elements">Elements</a></li> -->
 							</ul>
@@ -81,7 +98,7 @@
 				// Load section content dynamically
 				$(function() {
 					// Define the sections to load
-					var sections = ['intro', 'work', 'about', 'contact', 'elements'];
+					var sections = ['intro', 'services', 'about', 'contact', 'elements'];
 					var loadedSections = 0;
 					var totalSections = sections.length;
 					
